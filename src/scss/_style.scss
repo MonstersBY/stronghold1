@@ -1,0 +1,57 @@
+.btn {
+  cursor: pointer;
+  padding: 2.5rem 3.2rem 2.5rem 0;
+  display: flex;
+  background: #FFF;
+  border-radius: 5rem;
+  width: fit-content;
+  align-items: center;
+
+  span {
+    width: 31rem;
+    text-align: center;
+    color: #191C22;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+  }
+  svg {
+    width: 2rem;
+    height: 1.8rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .btn {
+    cursor: pointer;
+    padding: 3.2rem 4rem 3.2rem 0;
+    display: flex;
+    background: #FFF;
+    border-radius: 5rem;
+    width: fit-content;
+    align-items: center;
+  
+    span {
+      width: 41.4rem;
+      font-size: 3rem;
+      line-height: 111.732%;
+    }
+    svg {
+      width: 2.8rem;
+      height: 2.4rem;
+    }
+  }
+}
+
+@media (min-width: 48.01em) {
+	.mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 48em) {
+	.desktop {
+		display: none;
+	}
+}
