@@ -178,6 +178,7 @@
 
 .results {
     position: relative;
+    overflow: hidden;
     .container {
         width: 100%;
         padding-bottom: 50rem;
@@ -335,6 +336,7 @@
 
 .business {
     margin-bottom: 28rem;
+    overflow: hidden;
     .container {
         display: flex;
         justify-content: space-between;
@@ -421,6 +423,7 @@
 
 .advantages {
     margin-bottom: 7.6rem;
+    overflow: hidden;
     &__top {
         display: flex;
         justify-content: space-between;
@@ -661,6 +664,7 @@
 
 .agreements {
     margin-bottom: 20rem;
+    overflow: hidden;
     .container {
         display: flex;
         justify-content: space-between;
@@ -700,6 +704,7 @@
 
 .question {
     margin-bottom: 17.2rem;
+    overflow: hidden;
     &__top {
         display: flex;
         justify-content: space-between;
@@ -894,6 +899,10 @@
 
             &-small {
                 width: 29.5rem;
+                display: block;
+            }
+            &-big {
+                height: fit-content;
                 display: block;
             }
         }

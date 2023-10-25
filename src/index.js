@@ -1,5 +1,17 @@
 import $ from "jquery";
 
+import "animate.css";
+import WOW from "wow.js";
+
+const wow = new WOW({
+	boxClass: "wow",
+	animateClass: "animate__animated",
+	offset: 100,
+	mobile: false,
+	live: true,
+});
+wow.init();
+
 import "./js/utils/jquery.mask";
 import "swiper/css";
 import "swiper/css/bundle";
