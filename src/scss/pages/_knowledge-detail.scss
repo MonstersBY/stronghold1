@@ -213,9 +213,13 @@
     width: 61.6rem;
     height: 26rem;
     position: fixed;
-    top: 8rem;
+    bottom: 5rem;
     z-index: 1;
     left: 2rem;
+
+    &.not-show {
+        display: none;
+    }
 
     &__exit {
         cursor: pointer;
@@ -513,7 +517,7 @@
         width: 70.2rem;
         height: 52rem;
         position: relative;
-        top: 0;
+        bottom: 0;
         z-index: 1;
         left: 0;
         margin-bottom: 10rem;
