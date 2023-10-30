@@ -591,6 +591,15 @@
     position: relative;
     padding-top: 31.5rem;
     margin-bottom: 36.5rem;
+
+    &-base {
+        padding-top: 38.5rem;
+
+        .cover-all__right {
+            gap: 17.6rem;
+            margin-top: 0.5rem;
+        }
+    }
     &__video {
         width: 100%;
         height: 100%;
@@ -1483,6 +1492,19 @@
         position: relative;
         padding-top: 0rem;
         margin-bottom: 13rem;
+
+        &-base {
+            padding-top: 28rem;
+    
+            .cover-all__right {
+                gap: 6rem;
+                margin-top: 0;
+            }
+            .cover-all__title {
+                width: 40rem;
+                margin-bottom: 77rem;
+            }
+        }
         &__video {
             width: 100%;
             height: 100%;

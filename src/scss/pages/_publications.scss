@@ -1,0 +1,179 @@
+.publications {
+    margin-bottom: 20rem;
+    .container {
+        padding-top: 3rem;
+    }
+    &__total {
+        color: #E9EAEA;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 6.6rem;
+
+        span {
+            font-weight: 700;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 4.3rem;
+        column-gap: 2rem;
+    }
+    &__item {
+        width: 49.4rem;
+        height: 49.5rem;
+        padding: 3.4rem 5rem 0;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+            .publications__item {
+                &_date {
+                    color: #0F1217;
+                }
+                &_back {
+                    svg {
+                        path {
+                            fill: #E9EAEA;
+                        }
+                    }
+                }
+                &_img {
+                    svg {
+                        path {
+                            // d: path('M0 40C0 17.9086 17.9086 0 40 0H111.857H188C210.091 0 228 17.9086 228 40V113.571V188C228 210.091 210.091 228 188 228H122.143H40C17.9086 228 0 210.091 0 188V108V40Z');
+                        }
+                    }
+                }
+                &_title {
+                    color: #0F1217;
+                }
+            }
+        }
+
+        &_back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_date {
+            color: #E9EAEA;
+            font-family: 'Magistral';
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 6rem;
+            margin-left: -0.5rem;
+        }
+        &_img {
+            width: 22.6rem;
+            height: 22.6rem;
+            margin: 0 auto 5rem;
+
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+
+            path {
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                transition: 0.2s;
+            }
+        }
+        &_title {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Magistral';
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2.4rem;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .publications {
+        margin-bottom: 20rem;
+        .container {
+            padding-top: 3rem;
+        }
+        &__total {
+            color: #E9EAEA;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            margin-bottom: 6.6rem;
+    
+            span {
+                font-weight: 700;
+            }
+        }
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 4.3rem;
+            column-gap: 2rem;
+        }
+        &__item {
+            width: 70rem;
+            height: 70rem;
+            padding: 4.6rem 7rem 0;
+            position: relative;
+    
+            &:hover {
+                .publications__item {
+                    &_img {
+                        svg {
+                            path {
+                                // d: path('M0 40C0 17.9086 17.9086 0 40 0H111.857H188C210.091 0 228 17.9086 228 40V113.571V188C228 210.091 210.091 228 188 228H122.143H40C17.9086 228 0 210.091 0 188V108V40Z');
+                            }
+                        }
+                    }
+                }
+            }
+    
+            &_back {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            &_date {
+                font-size: 3rem;
+                margin-bottom: 8rem;
+                margin-left: -1rem;
+            }
+            &_img {
+                width: 32.6rem;
+                height: 32.6rem;
+                margin: 0 auto 7rem;
+    
+                path {
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    transition: 0.2s;
+                }
+            }
+            &_title {
+                font-size: 3rem;
+                line-height: 3.6rem;
+            }
+        }
+    }
+}
