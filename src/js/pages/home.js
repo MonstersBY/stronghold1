@@ -33,7 +33,7 @@ const results__swiper = new Swiper(".results__swiper", {
     slidesPerView: 1.9,
     loop: true,
     loopedSlides: 2,
-    spaceBetween: `${remToPx(2.2)}rem`,
+    spaceBetween: `${remToPx(4.4)}rem`,
     navigation: {
         nextEl: ".results__swiper_next",
         prevEl: ".results__swiper_prev",

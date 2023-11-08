@@ -1231,7 +1231,7 @@
             }
         }
         &__slide {
-            padding: 4rem 2.8rem 4.4rem;
+            padding: 7.4rem 2.8rem 4.4rem;
             border-top-left-radius: 9rem;
     
             &_img {
@@ -1247,19 +1247,34 @@
                     opacity: 0.9;
                 }
             }
+            &_top {
+                display: flex;
+                gap: 1.8rem;
+                align-items: center;
+                margin-bottom: 9.4rem;
+            }
             &_title {
                 span {
                     font-size: 3rem;
-                    line-height: 69.107%;
+                    line-height: initial;
                 }
                 strong {
                     font-size: 3rem;
-                    line-height: 2.0732rem;
+                    line-height: initial;
+                }
+            }
+            &_icon {
+                width: 5.4rem;
+                height: 5.4rem;
+                margin-bottom: 0;
+
+                svg {
+                    width: 5.4rem;
+                    height: 5.4rem;
                 }
             }
             &_age {
                 width: fit-content;
-                margin-left: 0;
                 font-size: 3rem;
                 line-height: 133.333%;
                 margin-bottom: 2rem;
@@ -1276,7 +1291,6 @@
             &_rise {
                 font-size: 3rem;
                 line-height: 4rem;
-                margin-left: 0;
                 margin-bottom: 2rem;
             }
         }
