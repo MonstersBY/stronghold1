@@ -52,12 +52,12 @@ const other_articles__swiper = new Swiper(".other-articles__swiper", {
         },
     },
 });
-$(document).scroll(function () {
-    console.log($(this).scrollTop());
-    if($(this).scrollTop() >= 1500) {
-        $('.monopolize').removeClass('not-show')
-    }
-});
+// $(document).scroll(function () {
+//     console.log($(this).scrollTop());
+//     if($(this).scrollTop() >= 1500) {
+//         $('.monopolize').removeClass('not-show')
+//     }
+// });
 $('.monopolize__exit').on("click", function (e) {
     $('.monopolize').css('display','none')
     setTimeout(()=> {

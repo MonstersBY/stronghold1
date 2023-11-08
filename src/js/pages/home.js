@@ -31,7 +31,8 @@ const results__swiper = new Swiper(".results__swiper", {
     modules: [Navigation],
     speed: 1500,
     slidesPerView: 1.9,
-    centeredSlides: false,
+    loop: true,
+    loopedSlides: 2,
     spaceBetween: `${remToPx(2.2)}rem`,
     navigation: {
         nextEl: ".results__swiper_next",
